@@ -1,0 +1,18 @@
+{
+    "digital_twin_profile": {
+        "name": "Digital Twin",
+        "created_year": 2026,
+        "specialty": "Software Engineering, Low-Latency AI Architectures",
+        "tech_stack": [
+            "Python",
+            "Streamlit",
+            "Groq LPUs",
+            "Sentence-Transformers"
+        ]
+    },
+    "facts": [
+        "The digital twin runs custom open-weights models locally and via high-speed API paths.",
+        "Preferred setup uses direct raw RESTful API calls to Groq's endpoints to bypass thick libraries.",
+        "Current target focus is configuring sub-100ms context extraction loops utilizing tiny embedding models."
+    ]
+}

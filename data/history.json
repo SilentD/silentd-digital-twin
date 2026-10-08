@@ -1,0 +1,84 @@
+{
+  "active_session_id": "session_480323",
+  "sessions": {
+    "session_a1b2c3": {
+      "title": "Conversation 1",
+      "created_at": "2026-10-07 22:00:00",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the status of the activity predictor?",
+          "timestamp": "2026-10-07 23:15:00"
+        },
+        {
+          "role": "assistant",
+          "content": "The predictor is currently deployed and running...",
+          "timestamp": "2026-10-07 23:15:02",
+          "usage": {
+            "inbound_tokens": 142,
+            "outbound_tokens": 68
+          }
+        },
+        {
+          "role": "user",
+          "content": "I owe myself a bottle to celebrate my digital twin development, it's midnight now",
+          "timestamp": "2026-10-07 23:53:31"
+        },
+        {
+          "role": "user",
+          "content": "Okay now? ",
+          "timestamp": "2026-10-08 00:01:15"
+        },
+        {
+          "role": "user",
+          "content": "What is it worth "
+        },
+        {
+          "role": "assistant",
+          "content": "I am Acta, your digital habit twin. To provide an accurate prediction for your next engagement, I need explicit data points from you. Please share:\n\n1.  **Current State**: What are you doing right now?\n2.  **Recent History**: What have you done in the last 2\u20133 hours?\n3.  **Goal/Intention**: What do you want to do in the next hour?\n4.  **Energy Level**: Rate it from 1 to 10.\n\nOnce provided, I will apply contextual awareness, momentum/fatigue tracking, and trigger analysis to predict your next activity and refine my model based on your subsequent feedback."
+        },
+        {
+          "role": "user",
+          "content": "Advanced testing "
+        },
+        {
+          "role": "assistant",
+          "content": "Context: Midnight, high cognitive load from \"Advanced testing\" (Application) just completed. Rule 2 indicates high fatigue risk; Rule 1 suggests late-night context favors low-load social or gaming. Prediction: Shift to **Online Gaming** or **Social Media** for 30-45 minutes as a decompression buffer before sleep. What did you actually do?"
+        },
+        {
+          "role": "user",
+          "content": "I did work on my digital twin, integrated rag, llm and tools. Now able to track tokens usage, use time tools and session based conversation, able to add new conversation and shifting between them as needed. Safellm with pruning added",
+          "timestamp": "2026-10-08 02:20:46"
+        },
+        {
+          "role": "assistant",
+          "content": "Updated model: Sustained high-load \"Application\" phase (RAG/LLM integration, SafeLLM pruning) indicates high energy and momentum, overriding initial fatigue prediction. This confirms a \"Deep Work\" state rather than a break trigger.\n\nPlease provide:\n1. Current Energy Level (1-10).\n2. Intention for the next hour.\n\nThis will determine if we predict continued \"Application\" (debugging/refining) or a shift to \"Learning\" (documenting) or \"Social\" (sharing the win).",
+          "timestamp": "2026-10-08 02:20:47",
+          "usage": {
+            "inbound_tokens": 730,
+            "outbound_tokens": 113
+          }
+        },
+        {
+          "role": "user",
+          "content": "Now I tired and satisfied with progress, 3/10. I want to sleep it's late.",
+          "timestamp": "2026-10-08 02:24:23"
+        },
+        {
+          "role": "assistant",
+          "content": "Prediction: Immediate **Wind-down/Rest**.\n\nYour energy (3/10) and explicit intention to sleep override all other activity weights. The \"satisfaction\" signal confirms task closure, removing the \"Application\" momentum.\n\n**Action Plan:**\n1.  Close all browser tabs and IDEs to eliminate FOMO triggers (Rule 3).\n2.  Engage in low-stimulus activity (e.g., reading a physical book or light stretching) for 10 minutes to lower cognitive load.\n3.  Sleep now.\n\n**Feedback Loop:**\nDid you follow this, or did you drift into **Social Media** or **Online Gaming** despite the low energy? This will update the \"Fatigue Trigger\" accuracy for late-night sessions.",
+          "timestamp": "2026-10-08 02:24:24",
+          "usage": {
+            "inbound_tokens": 831,
+            "outbound_tokens": 159
+          }
+        }
+      ]
+    },
+    "session_480323": {
+      "title": "Conversation 2",
+      "created_at": "2026-10-08 02:33:34",
+      "messages": []
+    }
+  }
+}
